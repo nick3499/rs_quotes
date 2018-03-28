@@ -1,13 +1,17 @@
 # rs_quotes
 Using jQuery with Axios to get individual Ron Swanson quotes from an API
 
+### Example
+
+![example]
+
 ### API
 
 [Ron Swanson quotes](http://ron-swanson-quotes.herokuapp.com/v2/quotes)
 
 ### Libraries
-[Axios](https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js)
-[jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js)
+- [Axios](https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js)
+- [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js)
 
 ### Script
 
@@ -25,3 +29,5 @@ $('#get_quote').click(function() {
   })
 });
 ```
+
+[example]: example.png "Example | Ron Swanson Quotes"
