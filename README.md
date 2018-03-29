@@ -1,7 +1,7 @@
 # rs_quotes
 Using jQuery with Axios to get individual Ron Swanson quotes from an API
 
-### Example
+### Example Image
 
 ![example]
 
