@@ -30,4 +30,17 @@ $('#get_quote').click(function() {
 });
 ```
 
+# Script (Alternate)
+
+```js
+  $('#get_quote').click(function() {
+    fetch("http://ron-swanson-quotes.herokuapp.com/v2/quotes")
+    .then(res => res.json())
+    .then((data) => {
+      this.friends = data
+      $('button').text(data);
+    })
+  });
+```
+
 [example]: example.png "Example | Ron Swanson Quotes"
