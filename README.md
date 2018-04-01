@@ -30,7 +30,7 @@ $('#get_quote').click(function() {
 });
 ```
 
-# Script (Alternate)
+### Script (Alternate)
 
 ```js
   $('#get_quote').click(function() {
